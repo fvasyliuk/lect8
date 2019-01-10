@@ -11,15 +11,18 @@ using System.Threading.Tasks;
 
 namespace home_lec_8
 {
+    
+    
+    
+    [TestFixture]
+    public class Home_task_8
+    {
     [Test]
     public void Deleted()
         {
             Assert.True(true);
         }
     /*
-    [TestFixture]
-    public class Home_task_8
-    {
         IWebDriver driver;
         IJavaScriptExecutor jexec;
 
@@ -79,6 +82,7 @@ namespace home_lec_8
         {
             driver.Quit();
         }
-    }
     */
+    }
+    
 }
