@@ -17,12 +17,8 @@ namespace home_lec_8
     [TestFixture]
     public class Home_task_8
     {
-    [Test]
-    public void Deleted()
-        {
-            Assert.True(true);
-        }
-    /*
+    
+    
         IWebDriver driver;
         IJavaScriptExecutor jexec;
 
@@ -50,6 +46,8 @@ namespace home_lec_8
         [Test]
         public void DownloadLastImg()
         {
+            Assert.True(true);
+            /*
             //Go to https://unsplash.com/search/photos/test
             driver.Navigate().GoToUrl("https://unsplash.com/search/photos/test");
 
@@ -75,6 +73,7 @@ namespace home_lec_8
 
             //Verify that file was downloaded.          
             Assert.That(Directory.GetFiles(downloadDirectoryPath, "the-roaming-platypus-529026-unsplash.jpg"), Is.Not.Empty);
+            */
         }
 
         [OneTimeTearDown]
@@ -82,7 +81,7 @@ namespace home_lec_8
         {
             driver.Quit();
         }
-    */
+    
     }
     
 }
